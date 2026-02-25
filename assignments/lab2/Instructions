@@ -1,0 +1,125 @@
+The goal of this lab is to get you started with Java and the Integrated Development Environment Program. One of available choices is DrJava. DrJava is an easy to use development environment for writing Java programs, designed at Rice University primarily for students and programmers new to Java. DrJava provides an intuitive, user-friendly interface so that the programmer can spend more time on program design than on the features of a complicated development environment.
+
+You will write the programs given below and perform the steps from A Quick Start Guide to DrJava (DrJava website). You get here the short version of those notes, to help you create a simple Java program using the DrJava program development environment:
+
+
+
+1.	Start Dr. Java
+
+2.	Press the "New" button/toolbar. This will lead to a blank screen in the right-hand editor pane, and a line labelled "(Untitled)" will appear in the left-hand column.
+
+3.	Type your code into the editor pane.
+
+4.	Save your code in a file. Note that the name of the file must match the name of the class: if you have created a file with class "HelloWorld", the file should be named "HelloWorld.java".
+
+5.	Press the "Compile" button. In case your program has errors, error messages will be printed in the "Compiler Output" tab/bottom pane. If you click on an error message, the cursor in the editor pane will be moved to the appropriate point in your code. Note that in case you want to configure Dr. Java to display line numbers, you have to select "Preferences" from the "Edit" menu. Next, select the "Display Options" category, and then check the box next to "Show All Line Numbers". (Edit --> Preference --> Display Options --> Show All Line Numbers)
+
+6.	When your code has no errors and compiles correctly, press the "Run" button/toolbar to run it.
+
+
+
+
+
+________________________________________
+
+Program 1: Hello, World!
+
+
+
+Problem: Write a Java program to print out the text: "Hello, World!"
+
+
+
+You will use this program:
+
+// **********************************************
+
+// COSC 236                LAB #2
+
+// YOUR NAME:
+
+// DUE-DATE:
+
+// PROGRAM-NAME: Lab2_1
+
+// Print out the text "Hello, World!"
+
+//**********************************************
+
+public class Lab2_1 {
+
+ /* A program to display the message
+
+ "Hello World!" on standard output screen */
+
+ public static void main(String[] args) {
+
+  System.out.println("Hello World!");
+
+ }
+
+} // end of class Lab2_1
+
+
+
+Save the file as Lab2_1 (the file name should be the same as the class name). Note that the program will automatically be saved with a .java extension, so you don’t have to type the extension when you enter the file name. However, it also allows the extension to be entered without creating two extensions. Compile using the Compile button. If you click on the Compiler Output tab on the bottom (if not already showing), you should see a message that the compilation was successful. To run the program, click on the Run button. After seeing the output, modify the program: add a new line after the "Hello World!" message, such as: "How are you today?" Save, compile, and run the new version of your program.
+
+________________________________________
+
+
+
+Program 2: Add two integers
+
+
+
+Problem: Write a program to add 2 integers and print their sum. Print your results in a form such as:
+
+The sum of 100 and 200 is 300.
+
+
+
+You will use this program:
+
+//***********************************************
+
+// COSC 236                LAB #2
+
+// YOUR NAME:
+
+// DUE-DATE:
+
+// PROGRAM-NAME: Lab2_2
+
+// Compute the sum of 2 integers
+
+//***********************************************
+
+public class Lab2_2 {
+
+ public static void main(String[] args) {
+
+  int x, y, sum;
+
+  x = 100;
+
+  y = 200;
+
+  sum = x + y;
+
+  System.out.println("Let's do some simple math!");
+
+  System.out.println("The sum of " + x + " and " + y + " = " + sum);
+
+  System.out.println();
+
+ }
+
+}
+
+
+
+
+
+Save, compile, and run the program. Change the values of x and y, save, compile and run the new version of your program.
+
+________________________________________
