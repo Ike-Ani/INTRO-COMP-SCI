@@ -1,0 +1,97 @@
+1. Write a println statement to produce this output:
+
+
+
+/ \ // \\ /// \\\
+
+
+
+--------------------------------------------------
+
+2. Write a Java program that prints the following lines using println:
+
+
+
+Hello, Java!
+
+Welcome to the world of programming.
+
+
+
+--------------------------------------------------
+
+
+
+3. Write a Java program that prints the following text using escape sequences:
+
+
+
+Java Programming
+
+  "Escape Sequences"
+
+C:\Java\Programs
+
+
+
+--------------------------------------------------
+
+
+
+4. Write a Java program that prints the following text using escape sequences:
+
+Shopping List:
+
+1. Apples
+
+2. Bananas
+
+3. Grapes
+
+
+
+Hint: Use \n for new lines and \t for indentation.
+
+
+
+---------------------------------------------------
+
+5. Write a program that prints a formatted receipt using \t (tab space) and \n (new line).
+
+
+
+===============================
+
+    Grocery Receipt     
+
+===============================
+
+Item      Price
+
+Apples     $2.50
+
+Bananas     $1.20
+
+Oranges     $3.10
+
+-------------------------------
+
+Total      $6.80
+
+===============================
+
+
+
+---------------------------------------------------
+
+6. Write a Java program that prints the following conversation with correct formatting using escape sequences:
+
+
+
+John: "Hey, how's it going?"
+
+Alice: "Pretty good! How about you?"
+
+John: "I'm great! Let's grab some coffee.
+
+Alice: "Sure, let's go!"
