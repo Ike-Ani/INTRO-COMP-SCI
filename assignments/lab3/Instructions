@@ -1,0 +1,69 @@
+Q1) 
+
+
+
+A car’s miles-per-gallon (MPG) can be calculated with the following formula:
+
+	
+
+     MPG = Miles driven / Gallons of gas used
+
+
+
+Write a program that asks the user for the number of miles driven and the gallons of gas used. 
+
+It should calculate the car’s MPG and display the result on the screen.
+
+
+
+-----------------------------------------------------------------
+
+
+
+Q2) 
+
+
+
+Write a program that asks the user to enter three test scores. 
+
+The program should display each test score, as well as the average of the score.
+
+
+
+-----------------------------------------------------------------
+
+
+
+Q3) 
+
+
+
+An electronics company sells circuit boards at a 40 percent profit. 
+
+If you know the retail price of a circuit board, you can calculate its profit with the following formula:
+
+
+
+	Profit = Retail price x 0.4
+
+
+
+Write a program that asks the user for the retail price of a circuit board, 
+
+calculates the amount of profit earned for that product and displays the results on the screen.
+
+
+
+-----------------------------------------------------------------
+
+
+
+Q4) 
+
+
+
+Write a program that will ask the user to enter the amount of a purchase. 
+
+The program should then compute the state and county sales tax. Assume the state sales tax is 4 percent and the county sales tax is 2 percent. The program should display the amount of the purchase, the state sales tax, the county sales tax, the total sales tax, and the total of the sale (which is the sum of the amount of purchase plus the total sales tax). 
+
+Hint: Use the value 0.02 to represent 2 percent, and 0.04 to represent 4 percent.
